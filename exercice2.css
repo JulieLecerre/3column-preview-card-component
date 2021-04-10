@@ -1,0 +1,159 @@
+body{
+
+	background-color: rgb(242, 242, 242);
+}
+
+
+
+#global {
+	position: absolute;
+	top: 50%;
+	/*margin-top: -132px;*/
+	transform: translateY(-50%);
+	left: 50%;
+	margin-left: -20%;
+/*	margin: auto;
+
+	margin-left: auto;
+  	margin-right: auto;*/
+  	min-width: 800px;
+	width: 40%;
+	height:265px;
+}
+
+.colonne {
+	height: 265px;
+	width: 13%;
+	min-width: 200px;
+	float: left;
+}
+
+
+
+.colonne1 {
+	background-color: #e28525;
+	border-radius: 5px 0px 0 5px;	
+}
+
+
+.colonne2 {
+	background-color: #016972;
+}
+
+
+.colonne3 {
+	background-color: #00403f;
+	border-radius: 0px  5px  5px 0;	
+}
+
+
+p {
+
+	text-align: left;
+	color: hsla(0, 0%, 100%, 0.75);
+	margin-top: -21px;
+	margin-right: 0px;
+	margin-bottom: 2em;
+	margin-left: 25px;
+	font-family: lexend deca;
+	font-size: 10px;
+	text-align: justify;
+
+}
+
+
+h1 {
+
+	color: white;
+	text-align: justify;
+	font-family: big shoulders display;
+	font-size: 19px;
+	margin-top: 20px;
+	margin-bottom: 2em;
+	margin-left: 25px;
+}
+
+.icon {
+ 	margin-top: 25px;
+ 	margin-left: 25px;
+ 	width: 40px;
+}
+
+
+.bouton {
+
+	height: 30px;
+	width: 100px;
+	background: hsl(0, 0%, 95%);
+	border-radius: 20px;
+	margin-top: 5px;
+	margin-right: 5px;
+	margin-left: 22px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+
+
+}
+
+.bouton:hover {
+
+	background: rgba(0, 0, 0, 0);
+ 	border-width:1px;
+ 	border-style:dotted;
+ 	border-color:white;
+}
+
+.bouton:hover .learnmore1
+{
+	color: white;
+}
+
+.learnmore1 {
+
+	font-family: lexend deca;
+	font-size: 10px;
+	color: #e28525;
+
+
+}
+
+.bouton:hover .learnmore2
+{
+	color: white;
+}
+
+
+.learnmore2 {
+
+	color: #016972;
+	font-family: lexend deca;
+	font-size: 10px;
+}
+
+.bouton:hover .learnmore3
+{
+	color: white;
+}
+
+ .learnmore3 {
+
+	color: #00403f;
+	font-family: lexend deca;
+	font-size: 10px;
+
+}
+
+
+
+body {
+
+	margin: 0;
+}
+
+a{
+
+	text-decoration: none;
+}
